@@ -1,0 +1,86 @@
+/** @format */
+
+body {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  font-family: Roboto;
+  background-color: whitesmoke;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+.dog-image {
+  margin-top: -25px;
+  margin-bottom: 15px;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.li-element {
+  list-style-type: none;
+  margin: 20px 0px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+.dog-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgray;
+  height: 300px;
+  transition: all 0.5s;
+}
+.dog-item:hover {
+  transform: scale(1.05);
+}
+.load {
+  float: right;
+  margin-bottom: 50px;
+  border: none;
+  outline: none;
+  background: whitesmoke;
+  padding: 1% 4%;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid black;
+  transition: all 0.5s ease-in-out;
+}
+.load:hover {
+  background: lightgray;
+  border: 1px solid black;
+}
+
+.dropdown-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#dropdown {
+  width: 40%;
+  background-color: whitesmoke;
+  border: 1px solid black;
+  outline: none;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  #dropdown {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #dropdown {
+    width: 80%;
+  }
+}
